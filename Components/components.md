@@ -21,9 +21,9 @@
 
 ##  Vision System
 
-![Pi Camera]((https://robu.in/_next/image?url=https%3A%2F%2Frobu-prod-media.s3.ap-south-1.amazonaws.com%2Fuploads%2F2022%2F12%2FRaspberry-Pi-Camera-Module-3-Wide-1.jpg&w=1920&q=90))
+![Pi Camera]([https://www.silverlineelectronics.in/cdn/shop/products/WideHero_768x7681_00fe5da4-d532-451b-a8a4-c04623611c7c_grande.webp?v=1673261937)
 
-* **Pi Camera Module v2**
+* **Pi Camera Module v3 wide**
   Used to detect red and green cubes.
 
 * Provides input for navigation decisions.
