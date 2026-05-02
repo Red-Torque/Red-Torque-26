@@ -32,9 +32,9 @@
 
 ##  Mechanical System (LEGO)
 
-![LEGO Chassis]((https://makerbazar.in/cdn/shop/products/MakerbazarLEGO_EducationSPIKE_PrimeSet1.png?v=1676351298&width=700))
+![LEGO Chassis](https://shop.knowledge-hub.com/wp-content/uploads/2020/02/LEGO-SPIKE-PRIME-SET.jpg)
 
-* Built using **LEGO Technic**
+* Built using **LEGO Spike Prime Kit**
 * Modular, lightweight, and precise
 * Implements **Ackermann steering geometry**
 
@@ -52,12 +52,15 @@
 
 ##  Power System
 
-![Battery](https://upload.wikimedia.org/wikipedia/commons/3/3c/18650_Li-ion_cell.jpg)
+![Battery](https://robokits.co.in/batteries-chargers/drone-batteries/genx-power-premium-lipo-battery/genxpower-7.4v-lipo-batteries/genx-7.4v-2s-1000mah-35c-70c-premium-lipo-lithium-polymer-battery)
 
 * Li-ion Battery Pack
+  
 * BMS for safety
+  
+ ![Buck converter](https://cdn.zbotic.in/wp-content/uploads/2023/12/IMG_3943.jpg)
 * Buck converter for voltage regulation
-
+   
 ---
 
 ## 📡 Sensor System
