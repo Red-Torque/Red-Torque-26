@@ -21,7 +21,7 @@
 
 ##  Vision System
 
-![Pi Camera]([https://www.silverlineelectronics.in/cdn/shop/products/WideHero_768x7681_00fe5da4-d532-451b-a8a4-c04623611c7c_grande.webp?v=1673261937)
+![Pi Camera](https://thepihut.com/cdn/shop/files/raspberry-pi-camera-module-3-raspberry-pi-sc0874-43251879215299_1000x.jpg?v=1727496119)
 
 * **Pi Camera Module v3 wide**
   Used to detect red and green cubes.
