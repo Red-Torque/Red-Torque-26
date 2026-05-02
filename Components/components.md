@@ -4,7 +4,7 @@
 
 ##  Core Processing System
 
-![Raspberry Pi](https://upload.wikimedia.org/wikipedia/commons/5/51/Raspberry_Pi_5.jpg)
+![Raspberry Pi](https://robocraze.com/cdn/shop/files/Official_Raspberry_Pi_5_Model_B_1GB_RAM_1000x.png?v=1772000804)
 
 * **Raspberry Pi 5**
   Handles computer vision and decision-making using Python and OpenCV.
@@ -19,7 +19,7 @@
 
 ##  Vision System
 
-![Pi Camera](https://upload.wikimedia.org/wikipedia/commons/3/3b/Raspberry_Pi_Camera_Module_V2.jpg)
+![Pi Camera]((https://robu.in/_next/image?url=https%3A%2F%2Frobu-prod-media.s3.ap-south-1.amazonaws.com%2Fuploads%2F2022%2F12%2FRaspberry-Pi-Camera-Module-3-Wide-1.jpg&w=1920&q=90))
 
 * **Pi Camera Module v2**
   Used to detect red and green cubes.
@@ -30,7 +30,7 @@
 
 ##  Mechanical System (LEGO)
 
-![LEGO Chassis](https://upload.wikimedia.org/wikipedia/commons/6/6d/Lego_Technic.jpg)
+![LEGO Chassis]((https://makerbazar.in/cdn/shop/products/MakerbazarLEGO_EducationSPIKE_PrimeSet1.png?v=1676351298&width=700))
 
 * Built using **LEGO Technic**
 * Modular, lightweight, and precise
