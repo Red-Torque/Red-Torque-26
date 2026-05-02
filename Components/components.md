@@ -9,6 +9,8 @@
 * **Raspberry Pi 5**
   Handles computer vision and decision-making using Python and OpenCV.
 
+![ESP-32](https://m.media-amazon.com/images/I/61HY2hJYbxL._SL1500_.jpg)
+
 * **ESP32**
   Executes real-time control for motors and steering.
 
