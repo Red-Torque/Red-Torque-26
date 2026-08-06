@@ -2,7 +2,7 @@
 
 ### WRO Season 2026 Future Engineering Challenge — Self-Driving Cars
 
-Our team, Red Torque, proudly presents **RT-X7**, an autonomous RoboCar developed for the 2025 World Robot Olympiad (WRO) Future Engineering Challenge. This international competition requires teams to design, build, and program fully autonomous vehicles capable of line following, cube recognition, obstacle avoidance, and precise parking — all performed autonomously under competition conditions.
+Our team, UWR Red Torque, proudly presents **RT-X7**, an autonomous RoboCar developed for the 2025 World Robot Olympiad (WRO) Future Engineering Challenge. This international competition requires teams to design, build, and program fully autonomous vehicles capable of line following, cube recognition, obstacle avoidance, and precise parking — all performed autonomously under competition conditions.
 
 ---
 
