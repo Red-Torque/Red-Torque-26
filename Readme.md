@@ -1,17 +1,32 @@
+# Team Details
+
+## Team Name
+**UWR Red Torque**
+
+## Coach
+**Jithu Joseph**
+
+## Team Members
+
+### Adithya Sree Sivaramanand
+**Role:** Hardware Design & Motor Control
+
+Adithya is a BCA student with a passion for artificial intelligence, robotics, and embedded electronics. He is responsible for the hardware architecture, motor control, and electronics integration of the RoboCar. He enjoys building innovative solutions, experimenting with new technologies, and solving engineering challenges.
+
 ---
 
-### WRO Season 2026 Future Engineering Challenge — Self-Driving Cars
+### Albin Binu K
+**Role:** Software Development & GitHub Documentation
 
-Our team, UWR Red Torque, proudly presents **RT-X7**, an autonomous RoboCar developed for the 2025 World Robot Olympiad (WRO) Future Engineering Challenge. This international competition requires teams to design, build, and program fully autonomous vehicles capable of line following, cube recognition, obstacle avoidance, and precise parking — all performed autonomously under competition conditions.
+Albin is a BCA student responsible for software development, project documentation, and repository management. He enjoys applying classroom knowledge to real-world robotics projects and has a strong interest in open-source development, entrepreneurship, and technology-driven innovation.
 
 ---
 
-### Team Members and Roles
+### Allwin Boban
+**Role:** Hardware & Software Development
 
-* **Coach:** Jithu Joseph
-* **Team Members:**
-    * **Adithya Sree Sivaramanand:** Hardware Design and Motor Control. A passionate BCA student with a love for AI, robotics, and electronics. I enjoy building smart solutions, exploring new tech, and always carry a screwdriver.
-    * **Albin Binu K:** Software Design & GitHub Documentation. I'm currently pursuing my BCA and always looking for ways to apply what I learn in real-world projects. I enjoy taking initiative and learning beyond the classroom and am interested in exploring startup plans rather than sticking to a company job for the long term.
-    * **Allwin Boban:** Hardware and Software Design & . I am currently pursuing a BCA in my 6th semester, with a strong interest in software development and emerging technologies. I enjoy exploring creative tech-based solutions to everyday problems.
+Allwin is a sixth-semester BCA student with a strong interest in software development and emerging technologies. He contributed to both hardware integration and software implementation while focusing on developing practical and reliable solutions for the autonomous RoboCar.
 
-Together, we combined hardware engineering, software development, and iterative testing to deliver RT-X7 as a robust competition entry.
+---
+
+Together, we combine expertise in hardware engineering, embedded systems, and software development to build reliable autonomous robots for the **World Robot Olympiad (WRO) Future Engineering Challenge**.
