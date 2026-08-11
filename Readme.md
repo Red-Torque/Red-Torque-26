@@ -65,17 +65,17 @@
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<img src="./t_photos/adithya.jpg" width="150" height="150"/><br/>
+<img src="./t_photos/adithya.png" width="150" height="150"/><br/>
 <b>Adithya Sree Sivaramanand</b><br/>
 <i>Hardware Design & Motor Control</i>
 </td>
 <td align="center" width="33%">
-<img src="./t_photos/albin.jpg" width="150" height="150"/><br/>
+<img src="./t_photos/albin.jpeg" width="150" height="150"/><br/>
 <b>Albin Binu K</b><br/>
 <i>Software Development & GitHub Documentation</i>
 </td>
 <td align="center" width="33%">
-<img src="./t_photos/allwin.jpg" width="150" height="150"/><br/>
+<img src="./t_photos/allwin.png" width="150" height="150"/><br/>
 <b>Allwin Boban</b><br/>
 <i>Hardware & Software Development</i>
 </td>
