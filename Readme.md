@@ -111,8 +111,8 @@ RT-X7 combines a LEGO Technic chassis with a hybrid electronics stack for autono
 ```
 Left/Right TF-Luna ─┐
 Front TF-LC02       ├──► Sensor ESP32 (+ drives sensor-cluster servo) ──► Raspberry Pi 5
-                     │                                                        │
-Rear TF-LC02 ────────┴── USB ───────────────────────────────────────────────►│
+                     │                                                         │
+Rear TF-LC02 ────────┴── USB ───────────────────────────────────────────────►  │
                                                                                │
                                                           steering/throttle decision
                                                                                │
