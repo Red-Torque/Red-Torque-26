@@ -65,7 +65,7 @@
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<img src="./t_photos/adithya.png" width="150" height="150"/><br/>
+<img src="./t_photos/Adithya.png" width="150" height="150"/><br/>
 <b>Adithya Sree Sivaramanand</b><br/>
 <i>Hardware Design & Motor Control</i>
 </td>
@@ -75,7 +75,7 @@
 <i>Software Development & GitHub Documentation</i>
 </td>
 <td align="center" width="33%">
-<img src="./t_photos/allwin.png" width="150" height="150"/><br/>
+<img src="./t_photos/Allwin.png" width="150" height="150"/><br/>
 <b>Allwin Boban</b><br/>
 <i>Hardware & Software Development</i>
 </td>
