@@ -13,14 +13,6 @@ src/
     └── hub/                 # Pybricks — motor/steering execution + lap counting
 ```
 
-## Status
-
-This is a first working scaffold, generated to match the architecture
-described in the main README — wire it up, flash it, and tune the
-constants (PID gains, servo mapping, HSV thresholds, pin numbers) against
-your actual hardware before relying on it at competition. Treat the pin
-assignments in each file as placeholders to confirm against your wiring,
-not as verified fact.
 
 ## Flashing order (see also the Reproducibility section of the main README)
 
