@@ -52,11 +52,6 @@
 **Team Name:** UWR Red Torque
 **Coach:** Jithu Joseph
 
-<p align="center">
-  <b>Jithu Joseph</b><br/>
-  <i>Coach</i>
-</p>
-
 ### Team Members
 
 <table align="center">
