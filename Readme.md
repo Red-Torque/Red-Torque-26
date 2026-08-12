@@ -395,7 +395,7 @@ Our full build log — entries **EN-001 through EN-020**, journal-style with emb
 6. Wire per the constraints documented above — **both TF-LC02 units to 3.3V only**, TF-Luna sensors on separate I²C buses (Wire/Wire1).
 7. Test each subsystem in isolation (sensor readings, servo tracking, UART relay) before running the full navigation stack.
 
-**Testing workflow:** each subsystem is bench-tested in isolation first (sensor readings verified against known distances, servo tracking checked against a straight-edge, UART relay checked with a serial monitor) before integrating onto the chassis. Once integrated, the car is run on a taped-out mock track approximating the WRO field before any competition-condition testing, with issues logged in the engineering notebook and the next iteration planned from there rather than making ad-hoc changes mid-test.
+**Testing workflow:** each subsystem is bench-tested in isolation first (sensor readings verified against known distances, servo tracking checked against a straight-edge, UART relay checked with a serial monitor) before integrating onto the chassis. Once integrated, the car is run on a taped-out mock track approximating the WRO field before any competition-condition testing, with issues logged in the engineering workflow and the next iteration planned from there rather than making ad-hoc changes mid-test.
 
 
 [Back To Top](#rt-x7--team-red-torque)
