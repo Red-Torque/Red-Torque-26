@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./red-torque-logo.jpeg" alt="Team Red Torque Logo" width="300"/>
+  <img src=".t_photos/red-torque-logo.jpeg" alt="Team Red Torque Logo" width="300"/>
 </p>
 
 <h1 align="center">RT-X7 — Team Red Torque</h1>
