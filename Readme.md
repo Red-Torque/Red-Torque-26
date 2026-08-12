@@ -53,12 +53,9 @@
 **Coach:** Jithu Joseph
 
 <p align="center">
-  <img src="./t_photos/coach.jpg" width="150" height="150"/><br/>
   <b>Jithu Joseph</b><br/>
   <i>Coach</i>
 </p>
-
-> 📸 **Coach photo:** add to `t_photos/coach.jpg` in the repo, then it will render automatically above.
 
 ### Team Members
 
@@ -70,7 +67,7 @@
 <i>Hardware Design & Motor Control</i>
 </td>
 <td align="center" width="33%">
-<img src="./t_photos/albin.jpeg" width="150" height="150"/><br/>
+<img src="./t_photos/Albin.jpeg" width="150" height="150"/><br/>
 <b>Albin Binu K</b><br/>
 <i>Software Development & GitHub Documentation</i>
 </td>
