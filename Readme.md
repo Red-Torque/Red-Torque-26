@@ -375,9 +375,9 @@ src/
 
 ---
 
-## Engineering Notebook
+## Engineering Workflow
 
-Our full build log — entries **EN-001 through EN-020**, journal-style with embedded diagrams and decision rationale — is maintained in this repository as [`engineering-notebook/`](./engineering-notebook).
+Our full build log — entries **EN-001 through EN-020**, journal-style with embedded diagrams and decision rationale — is maintained in this repository as [`engineering_workflow/`](./engineering-notebook).
 
 [Back To Top](#rt-x7--team-red-torque)
 
