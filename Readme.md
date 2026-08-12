@@ -329,7 +329,7 @@ Red-Torque-26/
 ├── engineering-notebook/       # EN-001–EN-020 journal entries
 ├── t_photos/                   # team + coach photos
 ├── v_photos/                   # robot photos
-├── v_video/                    # robot video footage
+├── v_videos/                    # robot video footage
 ├── src/
 │   ├── open_challenge/          # Open Challenge Pybricks/Python/Arduino code
 │   └── obstacle_challenge/      # Obstacle Challenge code
@@ -388,16 +388,15 @@ Our full build log — entries **EN-001 through EN-020**, journal-style with emb
 **To rebuild RT-X7 from this repository:**
 
 1. Assemble the LEGO Technic chassis with Ackermann steering geometry — build reference photos are in `v_photos/` and detailed part callouts are in `Components/components.md`.
-2. Flash the SPIKE Prime Hub with Pybricks and upload the Hub-side code from `src/obstacle_challenge/hub/` (or open challenge equivalent).
+2. Flash the SPIKE Prime Hub with Pybricks and upload the Hub-side code from `src/obstacle_challenge/` (or open challenge equivalent).
 3. Flash the **Sensor ESP32** with the firmware that reads left/right TF-Luna + front TF-LC02 and drives the sensor-cluster servo.
 4. Flash the **Bridge ESP32** with the UART relay firmware (Pi ↔ Hub).
-5. On the Raspberry Pi 5, install dependencies (`picamera2`, `opencv-python`, `pyserial` for the ESP32/USB links, and a lightweight PID implementation or a small hand-rolled PID class) and connect the rear TF-LC02 over USB.
-6. Wire per the constraints documented above — **both TF-LC02 units to 3.3V only**, TF-Luna sensors on separate I²C buses (`Wire`/`Wire1`).
+5. On the Raspberry Pi 5, install dependencies (picamera2, opencv-python, pyserial for the ESP32/USB links, and a lightweight PID implementation or a small hand-rolled PID class) and connect the rear TF-LC02 over USB.
+6. Wire per the constraints documented above — **both TF-LC02 units to 3.3V only**, TF-Luna sensors on separate I²C buses (Wire/Wire1).
 7. Test each subsystem in isolation (sensor readings, servo tracking, UART relay) before running the full navigation stack.
 
 **Testing workflow:** each subsystem is bench-tested in isolation first (sensor readings verified against known distances, servo tracking checked against a straight-edge, UART relay checked with a serial monitor) before integrating onto the chassis. Once integrated, the car is run on a taped-out mock track approximating the WRO field before any competition-condition testing, with issues logged in the engineering notebook and the next iteration planned from there rather than making ad-hoc changes mid-test.
 
-**Version history / release notes:** development has progressed through the major hardware/software pivots documented in [Systems Thinking](#systems-thinking--engineering-decisions) — from ESP32-hosted navigation logic, to Pi-hosted PID, to the dual-I²C-bus fix, to the servo-mounted sensor cluster. These are tagged as GitHub releases (e.g. `v0.1-hardware-bringup`, `v0.2-dual-i2c-fix`, `v0.3-servo-sensor-cluster`) so evaluators can see the iteration history directly in the repo's Releases page.
 
 [Back To Top](#rt-x7--team-red-torque)
 
