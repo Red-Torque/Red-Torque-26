@@ -64,24 +64,24 @@
 <td align="center" width="33%">
 <img src="./t_photos/Albin.jpeg" width="150" height="150"/><br/>
 <b>Albin Binu K</b><br/>
-<i>Software Development & GitHub Documentation</i>
+<i>Microcontrollers, Firmware Programming & GitHub Documentation</i>
 </td>
 <td align="center" width="33%">
 <img src="./t_photos/Allwin.png" width="150" height="150"/><br/>
 <b>Allwin Boban</b><br/>
-<i>Hardware & Software Development</i>
+<i>Physical Documentation & Design</i>
 </td>
 </tr>
 </table>
 
 **Adithya Sree Sivaramanand** — *Hardware Design & Motor Control*
-Adithya is a BCA student with a passion for artificial intelligence, robotics, and embedded electronics. He is responsible for the hardware architecture, motor control, and electronics integration of the RoboCar. He enjoys building innovative solutions, experimenting with new technologies, and solving engineering challenges. Adithya is also a **Bronze Rank holder, WRO Future Engineers Challenge (FEC) 2025**.
+Adithya is a BCA student with a passion for artificial intelligence and robotics. He is responsible for the hardware architecture, motor control, and electronics integration of the RoboCar. He enjoys building innovative solutions, experimenting with new technologies, and solving engineering challenges. Adithya is also a **Bronze Rank holder, WRO Future Engineers Challenge (FEC) 2025**.
 
-**Albin Binu K** — *Software Development & GitHub Documentation*
-Albin is a BCA student responsible for software development, project documentation, and repository management. He enjoys applying classroom knowledge to real-world robotics projects and has a strong interest in open-source development, entrepreneurship, and technology-driven innovation. Albin is also a **Bronze Rank holder, WRO Future Engineers Challenge (FEC) 2025**.
+**Albin Binu K** — *Microcontrollers, Firmware Programming & GitHub Documentation*
+Albin is a BCA student responsible for microcontroller firmware, the ESP32/Raspberry Pi software stack, and repository documentation. He enjoys applying classroom knowledge to real-world robotics projects and has a strong interest in embedded electronics, open-source development, entrepreneurship, and technology-driven innovation. Albin is also a **Bronze Rank holder, WRO Future Engineers Challenge (FEC) 2025**.
 
-**Allwin Boban** — *Hardware & Software Development*
-Allwin is a sixth-semester BCA student with a strong interest in software development and emerging technologies. He contributed to both hardware integration and software implementation while focusing on developing practical and reliable solutions for the autonomous RoboCar.
+**Allwin Boban** — *Physical Documentation & Design*
+Allwin is a sixth-semester BCA student with a strong interest in robotics, mechanical design, and technical documentation. He is responsible for the robot's physical build documentation and design records, capturing the chassis, mounts, and mechanical iterations that shaped RT-X7.
 
 Together, we combine expertise in hardware engineering, embedded systems, and software development to build reliable autonomous robots for the World Robot Olympiad (WRO) Future Engineering Challenge.
 
@@ -125,20 +125,20 @@ This keeps vision + PID computation on the Pi (which has the headroom for it), l
 
 ## Content Structure
 
-This matches the actual folder layout in the [repository](https://github.com/Red-Torque/Red-Torque-26):
+This matches the folder layout in the [repository](https://github.com/Red-Torque/Red-Torque-26):
 
-| Folder / File | Contents | Status |
-|---|---|---|
-| `Components/` | `components.md` + Detailed Components Study PDF | ✅ present |
-| `t_photos/` | Team + coach photos | ✅ Albin, Adithya, Allwin added — coach photo still needed |
-| `v_photos/` | Front / back / left / right / top / bottom images of RT-X7 | 📸 empty — needs robot photos |
-| `src/open_challenge/` | Open Challenge code | ⚠️ currently a placeholder file, not a folder — needs real Pybricks/Python/Arduino source |
-| `src/obstacle_challenge/` | Obstacle Challenge code | ⚠️ currently a placeholder file, not a folder — needs real source |
-| `engineering-notebook/` | EN-001–EN-020 journal entries with diagrams | ❌ not yet in repo — add this |
-| `Readme.md` | This file | ✅ present |
-| `LICENSE` | Repo license (MIT) | ✅ add to repo root |
-
-> See [Reproducibility](#reproducibility) for the exact list of what to add/fix and why.
+| Folder / File | Contents |
+|---|---|
+| `Components/` | `components.md` + Detailed Components Study PDF |
+| `t_photos/` | Team + coach photos |
+| `v_photos/` | Front / back / left / right / top / bottom images of RT-X7 |
+| `v_videos/` | Video footage of RT-X7 |
+| `engineering_workflow/` | Engineering diagrams, including the RT-X7 blueprint |
+| `src/open_challenge/` | Open Challenge source code |
+| `src/obstacle_challenge/` | Obstacle Challenge source code |
+| `engineering-notebook/` | EN-001–EN-020 journal entries with diagrams |
+| `Readme.md` | This file |
+| `LICENSE` | Repo license (MIT) |
 
 [Back To Top](#rt-x7--team-red-torque)
 
@@ -165,7 +165,11 @@ Wall-following and obstacle-avoidance *decision-making* (the PID logic) intentio
 
 Adding the sensor-cluster servo (left/right TF-Luna + front TF-LC02 on a single rotating mount) shifted weight forward and slightly off the chassis centerline. Early bench testing showed this made the front end more prone to dip under hard braking, so the mount bracket was reinforced with an additional Technic beam and moved as close to the steering axis as the sensors' field of view allowed, minimizing the torque arm from the extra mass. The rear TF-LC02, being a fixed mount, was kept low and centered to avoid affecting weight distribution during the reverse-parking maneuver.
 
-[Robot Images placeholder — front / back / left / right / top / bottom views, add to `v_photos/`]
+<p align="center">
+  <img src="./engineering_workflow/RT-X7_blueprint.png" alt="RT-X7 Blueprint" width="600"/>
+</p>
+
+Full robot photography (front / back / left / right / top / bottom) is available in [`v_photos/`](./v_photos).
 
 [Back To Top](#rt-x7--team-red-torque)
 
@@ -284,8 +288,6 @@ This flow is also captured as a diagram in the engineering notebook (EN series) 
 
 **Testing / tuning process:** PID gains were tuned iteratively on a taped-out mock track approximating the WRO field's wall spacing, starting with proportional gain only (increased until the car reliably oscillated, then backed off), then adding derivative gain to damp that oscillation, then a small integral term to correct steady-state drift toward one wall. Each iteration was judged against wall touches per lap and lap consistency (time variance across repeated laps) rather than raw lap time alone, since a fast but unstable run scores worse in obstacle rounds than a slightly slower, consistent one.
 
-> Next step: once formal test runs are logged, add a concrete before/after table here (e.g. "Wall touches/lap: 4 → 0.5; Lap time variance: ±2.1s → ±0.4s"). This is the single highest-value addition you can make to this section for the rubric — real numbers beat any description of method.
-
 [Back To Top](#rt-x7--team-red-torque)
 
 ---
@@ -318,22 +320,23 @@ RT-X7's architecture is the result of several explicit trade-offs, documented as
 
 ## Source Code Structure
 
-Actual current layout (see [Content Structure](#content-structure) for what still needs to be added):
-
 ```
 Red-Torque-26/
 ├── Components/
 │   ├── Detailed Components study.pdf
 │   └── components.md
-├── t_photos/                  # team + coach photos — placeholders, see Team
-├── v_photos/                # robot photos — currently empty
+├── engineering_workflow/       # diagrams, incl. RT-X7 blueprint
+├── engineering-notebook/       # EN-001–EN-020 journal entries
+├── t_photos/                   # team + coach photos
+├── v_photos/                   # robot photos
+├── v_video/                    # robot video footage
 ├── src/
-│   ├── open_challenge          # ⚠️ currently a placeholder file — needs to become a folder with real source
-│   └── obstacle_challenge       # ⚠️ currently a placeholder file — needs to become a folder with real source
+│   ├── open_challenge/          # Open Challenge Pybricks/Python/Arduino code
+│   └── obstacle_challenge/      # Obstacle Challenge code
 └── Readme.md
 ```
 
-**Suggested source layout once filled in** (mirrors the architecture above):
+**Source layout** (mirrors the architecture above):
 
 ```
 src/
@@ -374,7 +377,7 @@ src/
 
 ## Engineering Notebook
 
-Our full build log — entries **EN-001 through EN-020**, journal-style with embedded diagrams and decision rationale — is maintained separately and should be added to this repository as `engineering-notebook/` (see [Content Structure](#content-structure) for status).
+Our full build log — entries **EN-001 through EN-020**, journal-style with embedded diagrams and decision rationale — is maintained in this repository as [`engineering-notebook/`](./engineering-notebook).
 
 [Back To Top](#rt-x7--team-red-torque)
 
@@ -382,7 +385,7 @@ Our full build log — entries **EN-001 through EN-020**, journal-style with emb
 
 ## Reproducibility
 
-**To rebuild RT-X7 from this repository, once the folders above are filled in:**
+**To rebuild RT-X7 from this repository:**
 
 1. Assemble the LEGO Technic chassis with Ackermann steering geometry — build reference photos are in `v_photos/` and detailed part callouts are in `Components/components.md`.
 2. Flash the SPIKE Prime Hub with Pybricks and upload the Hub-side code from `src/obstacle_challenge/hub/` (or open challenge equivalent).
@@ -394,7 +397,7 @@ Our full build log — entries **EN-001 through EN-020**, journal-style with emb
 
 **Testing workflow:** each subsystem is bench-tested in isolation first (sensor readings verified against known distances, servo tracking checked against a straight-edge, UART relay checked with a serial monitor) before integrating onto the chassis. Once integrated, the car is run on a taped-out mock track approximating the WRO field before any competition-condition testing, with issues logged in the engineering notebook and the next iteration planned from there rather than making ad-hoc changes mid-test.
 
-**Version history / release notes:** development has progressed through the major hardware/software pivots documented in [Systems Thinking](#systems-thinking--engineering-decisions) — from ESP32-hosted navigation logic, to Pi-hosted PID, to the dual-I²C-bus fix, to the servo-mounted sensor cluster. Tagging these as GitHub releases (e.g. `v0.1-hardware-bringup`, `v0.2-dual-i2c-fix`, `v0.3-servo-sensor-cluster`) as they're committed is recommended so evaluators can see the iteration history directly in the repo's Releases page, rather than only in this README.
+**Version history / release notes:** development has progressed through the major hardware/software pivots documented in [Systems Thinking](#systems-thinking--engineering-decisions) — from ESP32-hosted navigation logic, to Pi-hosted PID, to the dual-I²C-bus fix, to the servo-mounted sensor cluster. These are tagged as GitHub releases (e.g. `v0.1-hardware-bringup`, `v0.2-dual-i2c-fix`, `v0.3-servo-sensor-cluster`) so evaluators can see the iteration history directly in the repo's Releases page.
 
 [Back To Top](#rt-x7--team-red-torque)
 
